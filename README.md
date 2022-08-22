@@ -2,24 +2,23 @@
 
 This repo contains the codes for our paper **DeepSenSe: A Deep Learning Model for Searching Relevant Articles using Sentences**.
 
-## Note on Codes
+The codes in this repo include scripts and notebooks for data processing and computation of evaluation metrics under the directory `scripts` and scripts for traning and evaluation of the DeepSenSe under the directory `model`.
 
-
-
+We used Python 3.7 in this study. Python packages and corresponding versions are listed in the file `requirement.txt`.
 
 ## Data Sources
 
 The original data used for our study are available from the following sources:
 
 - PMC Full-text Articles: https://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/
-- PubMed Abstract Articles: https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/
+- PubMed Abstracts: https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/
 - Journal Citation Reports: https://clarivate.com/webofsciencegroup/solutions/journal-citation-reports/
 - TREC-COVID Dataset: https://ir.nist.gov/covidSubmit/
 
-We downloaded the PMC full-text articles published before Oct. 23rd, 2019.
-https://ir.nist.gov/covidSubmit/data.html
+Data in the listed sources are updated from time to time. We downloaded the PMC full-text articles and PubMed abstracts on Oct. 23rd, 2019. We used the journal citation report of 2018 and the [TREC-COVID Complete](https://ir.nist.gov/covidSubmit/data.html) dataset.  
 
-## Data Process
+
+## Data Processing
 
 1. Corpus for Word Embedding
 
