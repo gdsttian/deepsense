@@ -23,17 +23,17 @@ Data in the listed sources are updated from time to time. We downloaded the PMC 
 Data needed for this study include a corpus for developing word embeddings, a dictionary of journal impact factors and citations of PubMed articles, a training and a validation datasets development of the DeepSenSe model, and several test datasets for evaluation of the DeepSenSe model.
 
 
-1. Corpus for Word Embeddings
+### Corpus for Word Embeddings
 
 The corpus for developing word embeddings was created from all PubMed abstracts.
 
 
-2. Journal Impact Factor and Citation Dictionary
+### Journal Impact Factor and Citation Dictionary
 
 The journal impact factor and citation dictionary was developed by extracting the impact factor of each journal from the journal citation report 2018 and counting citations of each article in PubMed.
 
 
-3. Training, Validation and Test Data
+### Training, Validation and Test Data
 
 We extracted sentences with citations from the full-text part of the PMC XML files,
 and obtained titles, abstracts, publication year, article type (journal
@@ -45,20 +45,20 @@ generate the training data.
 
 
 
-4. TREC-COVID Dataset
+### TREC-COVID Dataset
 
 
 
 
 ## Model Training and Evaluation
 
-1. Word Embedding
+### Word Embedding
 
 
-2. DeepSenSe Model Training
+### DeepSenSe Model Training
 
 
-3. Evaluation
+### Evaluation
    
 - Test Data
 
